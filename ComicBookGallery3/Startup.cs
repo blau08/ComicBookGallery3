@@ -41,6 +41,7 @@ namespace ComicBookGallery3
             {
                 app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
+                app.UseStaticFiles();
             }
             else
             {
